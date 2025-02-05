@@ -91,24 +91,5 @@ curl -X POST http://localhost:8000/api/faqs/
 - `LANGUAGE_CODE`: Default language (default: `en`)
 - `ALLOWED_HOSTS`: Allowed hostnames (important for production: e.g., `ALLOWED_HOSTS=example.com,api.example.com`)
 
-## Project Structure
 
-faq_api/
-├── faq_app/
-│   ├── migrations/
-│   ├── models.py
-│   ├── serializers.py
-│   ├── views.py
-│   ├── tests.py
-│   ├── admin.py
-│   └── apps.py
-├── faq_api/
-│   ├── settings.py
-│   ├── urls.py
-│   ├── wsgi.py
-│   ├── asgi.py
-├── docker-compose.yml
-├── Dockerfile
-├── requirements.txt
-└── manage.py
 
